@@ -35,7 +35,7 @@ const Navbar = () => {
         >
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, i) => (
-              <li key={i} className="px-6 hover:text-cyan-600">
+              <li key={i} className="px-6 hover:text-cyan-400">
                 <a href={menu?.link}>{menu?.name}</a>
               </li>
             ))}
@@ -44,10 +44,10 @@ const Navbar = () => {
         <div
           onClick={() => setOpen(!open)}
           className={`z-[999]  ${
-            open ? "text-gray-900" : "text-gray-100"
+            open ? "text-gray-900" : "text-gray-200"
           } text-3xl md:hidden m-5`}
         >
-          <ion-icon name="menu"></ion-icon>
+          <i class="fa-solid fa-bars"></i>
         </div>
         <div
           className={`md:hidden text-gray-900 absolute w-2/3 h-screen

@@ -20,8 +20,10 @@ const Hero = () => {
       id="home"
       className="flex min-h-screen flex-col items-center py-10 md:flex-row"
     >
-      <div className="flex h-full flex-1 items-center justify-center">
+      <div className="relative flex h-full flex-1 items-center justify-center">
         <img src={hero} alt="" className="h-full object-cover md:w-11/12" />
+        <div className="absolute bottom-0 left-5 flex h-28 w-28 cursor-pointer items-center justify-center rounded-full bg-cyan-400 text-4xl text-white"></div>
+        <div className="absolute bottom-40 right-5 flex h-16 w-16 animate-bounce cursor-pointer items-center justify-center rounded-full bg-cyan-400 text-4xl text-white"></div>
       </div>
       <div className="flex-1">
         <div className="text-center md:text-left">

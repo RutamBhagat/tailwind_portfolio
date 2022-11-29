@@ -5,7 +5,7 @@ const Project = () => {
     {
       img: "https://images.alphacoders.com/859/thumb-1920-859458.jpg",
       name: "FastKitchen: Delivering Happiness",
-      technologies: "| HTML, CSS, Tailwind, Javascript, React |",
+      technologies: "HTML, CSS, Tailwind, Javascript, React",
       description:
         "FastKitchen has a simple UI which allows its users to quickly and conveniently order food. Recentonline pizza delivery apps are trending among users as these services are time-saving and easy to use. This app has a fully responsive layout. It allows customers to pick from different types of pizza from your restaurant and with the pizza constructor feature they can customize their pizza by changing flavors, size, toppings etc. according to their taste, and place an order. And lastly the app was deployed on Netlify.",
       github_link: "https://github.com/RutamBhagat/pizza_UI_react",
@@ -15,7 +15,7 @@ const Project = () => {
       img: "https://lh3.googleusercontent.com/Kx3hndq4t-0_Ib-_2Lb3yi2e2mjId2sBPg08nFA-MOWfwTOUCXpivJWeWgEZREjL7sM=h500",
       name: "SmartBrain: Face detection app",
       technologies:
-        "| HTML, CSS, Tailwind, Javascript, React, Node, Express, PostgreSQL |",
+        "HTML, CSS, Tailwind, Javascript, React, Node, Express, PostgreSQL",
       description:
         "When you enter an image URI in the input and press detect, It'll detect all the faces in the image using an image recognition API, and put boxes around them. In frontend it uses ReactJS In backend it has its own RESTful API server with express. It stores user information such as username and also hash passwords securely in a PostgreSQL database. SmartBrain V-1 is a fully responsive web site, and the react-tsparticles make it look even cooler. And lastly the app was deployed on Heroku. ",
       github_link: "https://github.com/RutamBhagat/SmartBrain_V-2",
@@ -26,7 +26,7 @@ const Project = () => {
     <section id="projects" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-cyan-600">Projects</span>
+          My <span className="text-cyan-400">Projects</span>
         </h3>
         <p className="mt-3 text-lg text-gray-400">My awesome works</p>
       </div>
