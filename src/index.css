@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-zoom {
+    @apply relative flex items-center justify-center overflow-hidden rounded-r-2xl shadow-xl;
+  }
+
+  .card-zoom-image {
+    @apply absolute h-full w-full transform bg-cover bg-center transition-all duration-500 ease-in-out;
+  }
+
+  .card-zoom-text {
+    @apply absolute scale-150 transform text-7xl font-black text-gray-50 opacity-60 transition-all duration-500 ease-in-out;
+  }
+
+  .card-zoom:hover .card-zoom-image {
+    @apply scale-150;
+  }
+
+  .card-zoom:hover .card-zoom-text {
+    @apply scale-100;
+  }
+}
+
+.parent:hover .parent-hover\:text-gray {
+  color: #1d2942;
+}
+
+html {
+  @apply scroll-smooth font-Poppins;
+}
+body {
+  @apply box-border bg-gray-900 text-gray-100;
+}
+.btn-primary {
+  @apply mx-auto flex items-center gap-2 rounded-full bg-cyan-600 py-3 px-6 font-semibold text-white md:mx-0;
+}
+
+.aboutImg::after {
+  @apply absolute left-0 top-0 -z-10 h-full w-full rotate-12 rounded-xl bg-gray-600 content-[''];
+}
+
+.swiper-pagination-bullet {
+  @apply bg-white;
+}
+
+input,
+textarea {
+  @apply rounded-lg bg-gray-700 p-3 outline-none;
+}
+::placeholder {
+  @apply text-lg;
+}
+
+::selection {
+  @apply bg-cyan-600;
+}
