@@ -1,9 +1,11 @@
 import React from "react";
+import fastkitchen from "../assets/images/fastkitchen.webp";
+import smartbrain from "../assets/images/smartbrain.webp";
 
 const Project = () => {
   const projects = [
     {
-      img: "../assets/images/fastkitchen.webp",
+      img: fastkitchen,
       name: "FastKitchen: Delivering Happiness",
       technologies: "HTML, CSS, Tailwind, Javascript, React",
       description:
@@ -13,7 +15,7 @@ const Project = () => {
       demo_link: "https://youtu.be/jr-RZTDfxHs",
     },
     {
-      img: "../assets/images/smartbrain.webp",
+      img: smartbrain,
       name: "SmartBrain: Face detection app",
       technologies:
       "HTML, CSS, Tailwind, Javascript, React, Node, Express, PostgreSQL",
