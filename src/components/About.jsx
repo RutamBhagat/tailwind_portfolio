@@ -1,11 +1,13 @@
 import React from "react";
 
 const About = () => {
-  const info = [
-    { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "24" },
-    { text: "Companies Work", count: "06" },
-  ];
+  // const info = [
+  //   { text: "Years experience", count: "04" },
+  //   { text: "Completed Projects", count: "24" },
+  //   { text: "Companies Work", count: "06" },
+  // ];
+
+
   return (
     <section id="about" className="py-10 text-white">
       <div className="mt-8 text-center">
@@ -55,7 +57,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="mt-6 flex flex-1 items-center justify-center md:mt-0">
+          <div className="mt-6 flex md:hidden lg:flex flex-1 items-center justify-center md:mt-0">
             <div className="aboutImg relative h-full w-11/12 max-w-sm sm:w-10/12 lg:w-96 ">
               <img
                 src="https://raw.githubusercontent.com/ashutosh1919/masterPortfolio/ec97be0c38b4c1eba2b3a7ca6f881506efcf8e77/src/assests/images/fullstack.svg"
