@@ -3,7 +3,7 @@ import React from "react";
 const Project = () => {
   const projects = [
     {
-      img: "https://images.alphacoders.com/859/thumb-1920-859458.jpg",
+      img: "../assets/images/fastkitchen.webp",
       name: "FastKitchen: Delivering Happiness",
       technologies: "HTML, CSS, Tailwind, Javascript, React",
       description:
@@ -13,7 +13,7 @@ const Project = () => {
       demo_link: "https://youtu.be/jr-RZTDfxHs",
     },
     {
-      img: "https://lh3.googleusercontent.com/Kx3hndq4t-0_Ib-_2Lb3yi2e2mjId2sBPg08nFA-MOWfwTOUCXpivJWeWgEZREjL7sM=h500",
+      img: "../assets/images/smartbrain.webp",
       name: "SmartBrain: Face detection app",
       technologies:
       "HTML, CSS, Tailwind, Javascript, React, Node, Express, PostgreSQL",
