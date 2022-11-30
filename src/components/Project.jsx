@@ -20,7 +20,7 @@ const Project = () => {
       description:
       "When you enter an image URI in the input and press detect, It'll detect all the faces in the image using an image recognition API, and put boxes around them. In frontend it uses ReactJS In backend it has its own RESTful API server with express. It stores user information such as username and also hash passwords securely in a PostgreSQL database. SmartBrain V-1 is a fully responsive web site, and the react-tsparticles make it look even cooler. And lastly the app was deployed on Heroku. ",
       github_link: "https://github.com/RutamBhagat/SmartBrain_V-2",
-      live_link: "https://smart-brain-v-2.herokuapp.com",
+      live_link: "https://rutambhagatgithubiosmartbrain.netlify.app/",
       demo_link: "https://youtu.be/7Y_uCxnZuOg",
     },
   ];
