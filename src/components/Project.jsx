@@ -1,6 +1,7 @@
 import React from "react";
 import fastkitchen from "../assets/images/fastkitchen.webp";
 import smartbrain from "../assets/images/smartbrain.webp";
+import drip from "../assets/images/drip.webp";
 
 const Project = () => {
   const projects = [
@@ -23,6 +24,17 @@ const Project = () => {
       "When you enter an image URI in the input and press detect, It'll detect all the faces in the image using an image recognition API, and put boxes around them. In frontend it uses ReactJS In backend it has its own RESTful API server with express. It stores user information such as username and also hash passwords securely in a PostgreSQL database. SmartBrain V-1 is a fully responsive web site, and the react-tsparticles make it look even cooler. And lastly the app was deployed on Heroku. ",
       github_link: "https://github.com/RutamBhagat/SmartBrain_V-2",
       live_link: "https://rutambhagatgithubiosmartbrain.netlify.app/",
+      demo_link: "https://youtu.be/7Y_uCxnZuOg",
+    },
+    {
+      img: drip,
+      name: "DripShop: Clothing Shop App",
+      technologies:
+      "React, Redux, React Router, Context API, Firebase, Stripe",
+      description:
+      "This is an E-commerce application similar to Shopify using React, Redux, React Router, Context API, Firebase, Stripe + more. This is going to be a full stack app (MERN stack), using Firebase. It uses Redux library for maintaining global state. It React Router to move between pages. And Stripe API to make online purchases. It uses Tailwind for styling the app. Other technologies used in this app were: Redux Saga, Asynchronous Redux, React Hooks, Context API, React Suspense + React Lazy Loading",
+      github_link: "https://github.com/RutamBhagat/Drip_Shop_V2",
+      live_link: "https://rutambhagatgithubiodrip-shop.netlify.app/",
       demo_link: "https://youtu.be/7Y_uCxnZuOg",
     },
   ];
