@@ -9,8 +9,11 @@ const Project = () => {
       img: fastkitchen,
       name: "FastKitchen: Delivering Happiness",
       technologies: "HTML, CSS, Tailwind, Javascript, React",
-      description:
-        "FastKitchen has a simple UI which allows its users to quickly and conveniently order food. Recentonline pizza delivery apps are trending among users as these services are time-saving and easy to use. This app has a fully responsive layout. It allows customers to pick from different types of pizza from your restaurant and with the pizza constructor feature they can customize their pizza by changing flavors, size, toppings etc. according to their taste, and place an order. And lastly the app was deployed on Netlify.",
+      description: `FastKitchen is a simple fully responsive front-end pizza store layout built using React and Tailwind which
+        allows its users to quickly and conveniently order food.
+        It allows customers to pick from different types of pizza from your restaurant and with the pizza constructor
+        feature they can customize their pizza by changing flavors, size, toppings etc. according to their taste,
+        and place an order. And Netlify was used in order to deploy the project.`,
       github_link: "https://github.com/RutamBhagat/pizza_UI_react",
       live_link: "https://rutambhagatgithubiopizzauireact.netlify.app/",
       demo_link: "https://youtu.be/jr-RZTDfxHs",
@@ -19,9 +22,16 @@ const Project = () => {
       img: smartbrain,
       name: "SmartBrain: Face detection app",
       technologies:
-      "HTML, CSS, Tailwind, Javascript, React, Node, Express, PostgreSQL",
-      description:
-      "When you enter an image URI in the input and press detect, It'll detect all the faces in the image using an image recognition API, and put boxes around them. In frontend it uses ReactJS In backend it has its own RESTful API server with express. It stores user information such as username and also hash passwords securely in a PostgreSQL database. SmartBrain V-1 is a fully responsive web site, and the react-tsparticles make it look even cooler. And lastly the app was deployed on Heroku. ",
+        "HTML, CSS, Tailwind, Javascript, React, Node, Express, PostgreSQL",
+      description: `The Smart-Brain application uses image URI as an input, 
+      and then it’ll detect all the faces in the image using Clarifai face detection API, 
+      and tags them by puting boxes around their faces. 
+      The front end is built using React, Tailwind and frontend was deployed on netlify, 
+      backend on render and heroku was used for deploying the PostgreSQL database. 
+      In backend it has its own REST API server with express. 
+      It keeps a record of user login details such as usernames, hash encrypted passwords using bcrypt and
+      count of how many faces they have detected so far with the app, securely in a PostgreSQL database. 
+      SmartBrain V-2 is a fully responsive web site, and the react-tsparticles library make it look even cooler.`,
       github_link: "https://github.com/RutamBhagat/SmartBrain_V-2",
       live_link: "https://rutambhagatgithubiosmartbrain.netlify.app/",
       demo_link: "https://youtu.be/7Y_uCxnZuOg",
@@ -29,10 +39,16 @@ const Project = () => {
     {
       img: drip,
       name: "DripShop: Clothing Shop App",
-      technologies:
-      "React, Redux, React Router, Context API, Firebase, Stripe",
-      description:
-      "This is an E-commerce application similar to Shopify using React, Redux, React Router, Context API, Firebase, Stripe + more. This is going to be a full stack app (MERN stack), using Firebase. It uses Redux library for maintaining global state. It React Router to move between pages. And Stripe API to make online purchases. It uses Tailwind for styling the app. Other technologies used in this app were: Redux Saga, Asynchronous Redux, React Hooks, Context API, React Suspense + React Lazy Loading",
+      technologies: "React, Redux, React Router, Context API, Firebase, Stripe",
+      description: `This is a minimalist E-commerce application similar to Shopify that sells the latest clothes in fashion.
+      It was created using React, Redux, React Router, Context API, Firebase, Stripe + more. This is a full
+      stack app (MERN stack), using Firebase.
+      It uses Redux library for global state management.
+      It makes use of React Router to move between pages and Firebase for authentication and accessing shop
+      data. And the payments gateway implements Stripe API in checkout process to make online purchases.
+      It utilizes Tailwind for styling the app.
+      Other technologies used in this app were: Redux Saga, Asynchronous Redux, React Hooks, Context API,
+      React Suspense + React Lazy Loading.`,
       github_link: "https://github.com/RutamBhagat/Drip_Shop_V2",
       live_link: "https://rutambhagatgithubiodrip-shop.netlify.app/",
       demo_link: "https://youtu.be/7Y_uCxnZuOg",
@@ -73,7 +89,7 @@ const Project = () => {
                     </div>
                   </a>
                   <a href={project.live_link}>
-                    <div className="mt-8 mx-3 inline-block bg-gradient-to-r from-cyan-200 to-cyan-600 p-1">
+                    <div className="mx-3 mt-8 inline-block bg-gradient-to-r from-cyan-200 to-cyan-600 p-1">
                       <div className="parent bg-gray-900 hover:bg-gradient-to-r hover:from-cyan-200 hover:to-cyan-600">
                         <button className="parent-hover:text-gray z-5 bg-gradient-to-r from-cyan-200 to-cyan-600 bg-clip-text p-2 font-bold text-transparent">
                           See Live
