@@ -26,6 +26,10 @@ const Skills = () => {
       logo: "fa-brands fa-npm",
       name: "NPM",
     },
+    {
+      logo: "fa-solid fa-database",
+      name: "PostgreSQL",
+    },
   ];
   return (
     <section id="skills" className="relative bg-gray-900 py-10">
