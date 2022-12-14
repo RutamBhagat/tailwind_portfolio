@@ -6,6 +6,25 @@ import drip from "../assets/images/drip.webp";
 const Project = () => {
   const projects = [
     {
+      img: drip,
+      name: "DripShop: Clothing Shop App",
+      technologies: "React, Redux, React Router, Context API, Firebase, Stripe",
+      description: `This is a minimalist E-commerce application similar to Shopify that sells the latest clothes in fashion. It
+      was created using React, Redux, React Router, Context API, Firebase, Stripe and much more. This is a
+      server less full stack React application.
+      It uses Redux library for global state management.
+      It makes use of React Router to move between pages and Firebase for authentication and accessing shop
+      data.
+      And the payments gateway implements Stripe API in the checkout process in order to simplify the process
+      of online purchases.
+      It utilizes Tailwind for styling the app and Typescript for type safety.
+      Other technologies used in this app were: Redux Saga, Asynchronous Redux, React Hooks, Context API,
+      React Suspense and React Lazy Loading.`,
+      github_link: "https://github.com/RutamBhagat/Drip_Shop_V2",
+      live_link: "https://rutambhagatgithubiodrip-shop.netlify.app/",
+      demo_link: "https://youtu.be/KvxCG6kSgRQ",
+    },
+    {
       img: fastkitchen,
       name: "FastKitchen: Delivering Happiness",
       technologies: "HTML, CSS, Tailwind, Javascript, React",
@@ -34,23 +53,6 @@ const Project = () => {
       SmartBrain V-2 is a fully responsive web site, and the react-tsparticles library make it look even cooler.`,
       github_link: "https://github.com/RutamBhagat/SmartBrain_V-2",
       live_link: "https://rutambhagatgithubiosmartbrain.netlify.app/",
-      demo_link: "https://youtu.be/7Y_uCxnZuOg",
-    },
-    {
-      img: drip,
-      name: "DripShop: Clothing Shop App",
-      technologies: "React, Redux, React Router, Context API, Firebase, Stripe",
-      description: `This is a minimalist E-commerce application similar to Shopify that sells the latest clothes in fashion.
-      It was created using React, Redux, React Router, Context API, Firebase, Stripe + more. This is a full
-      stack app (MERN stack), using Firebase.
-      It uses Redux library for global state management.
-      It makes use of React Router to move between pages and Firebase for authentication and accessing shop
-      data. And the payments gateway implements Stripe API in checkout process to make online purchases.
-      It utilizes Tailwind for styling the app.
-      Other technologies used in this app were: Redux Saga, Asynchronous Redux, React Hooks, Context API,
-      React Suspense + React Lazy Loading.`,
-      github_link: "https://github.com/RutamBhagat/Drip_Shop_V2",
-      live_link: "https://rutambhagatgithubiodrip-shop.netlify.app/",
       demo_link: "https://youtu.be/7Y_uCxnZuOg",
     },
   ];
