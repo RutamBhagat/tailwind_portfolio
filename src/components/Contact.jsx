@@ -1,15 +1,6 @@
 import React from "react";
 
 const Contact = () => {
-  // const contact_info = [
-  //   { logo: "fa-regular fa-envelope", text: "rutambhagat@gmail.com" },
-  //   { logo: "fa-brands fa-whatsapp", text: "+91 7558239156" },
-  //   {
-  //     logo: "fa-solid fa-location-dot",
-  //     text: "Maharashtra, India",
-  //   },
-  // ];
-
   return (
     <section id="contact" className="py-10 px-3 text-white">
       <div className="mt-8">
