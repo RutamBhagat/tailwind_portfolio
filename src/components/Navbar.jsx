@@ -47,7 +47,7 @@ const Navbar = () => {
             open ? "text-gray-900" : "text-gray-200"
           } text-3xl md:hidden m-5`}
         >
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </div>
         <div
           className={`md:hidden text-gray-900 absolute w-2/3 h-screen

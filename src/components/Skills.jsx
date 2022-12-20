@@ -1,4 +1,10 @@
 import React from "react";
+import TypescriptIcon from "../assets/svg/typescript.component";
+import PostgreSQLIcon from "../assets/svg/postgresql.component";
+import TailwindCSSIcon from "../assets/svg/tailwindCSS.component";
+import ReduxIcon from "../assets/svg/redux.components";
+import GraphQLIcon from "../assets/svg/graphQL.components";
+import FirebaseIcon from "../assets/svg/firebase.component";
 
 const Skills = () => {
   const skills = [
@@ -11,12 +17,32 @@ const Skills = () => {
       name: "CSS",
     },
     {
+      svg: <TailwindCSSIcon />,
+      name: "Tailwind",
+    },
+    {
+      logo: "fa-brands fa-bootstrap",
+      name: "Bootstrap",
+    },
+    {
       logo: "fa-brands fa-square-js",
       name: "Javascript",
     },
     {
+      svg: <TypescriptIcon />,
+      name: "Typescript",
+    },
+    {
       logo: "fa-brands fa-react",
       name: "React Js",
+    },
+    {
+      svg: <ReduxIcon />,
+      name: "Redux",
+    },
+    {
+      svg: <GraphQLIcon />,
+      name: "GraphQl",
     },
     {
       logo: "fa-brands fa-node",
@@ -27,8 +53,20 @@ const Skills = () => {
       name: "NPM",
     },
     {
-      logo: "fa-solid fa-database",
+      svg: <PostgreSQLIcon />,
       name: "PostgreSQL",
+    },
+    {
+      svg: <FirebaseIcon />,
+      name: "Firebase",
+    },
+    {
+      logo: "fa-brands fa-stripe",
+      name: "Stripe",
+    },
+    {
+      logo: "fa-brands fa-github",
+      name: "Github",
     },
   ];
   return (
@@ -42,12 +80,16 @@ const Skills = () => {
           {skills?.map((skill, i) => (
             <div
               key={i}
-              className="group relative min-w-[10rem] max-w-[16rem] rounded-xl border-2 text-gray-700 border-cyan-400 bg-gray-200 p-10"
+              className="group relative min-w-[10rem] max-w-[16rem] rounded-xl border-2 border-cyan-400 bg-gray-200 p-10 text-gray-700"
             >
-              <div className="flex h-28 w-28 items-center justify-center rounded-full bg-gray-200 text-6xl group-hover:text-cyan-400">
-                <i className={`${skill.logo}`}></i>
+              <div className="flex h-28 w-28 items-center justify-center rounded-full bg-gray-200 text-6xl">
+                {skill.logo ? (
+                  <i className={`${skill.logo} group-hover:text-cyan-500`}></i>
+                ) : (
+                  skill.svg
+                )}
               </div>
-              <h1 className="group-hover:text-cyan-400">{skill.name}</h1>
+              <h1 className="group-hover:text-cyan-500">{skill.name}</h1>
             </div>
           ))}
         </div>
