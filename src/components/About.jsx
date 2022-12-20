@@ -1,13 +1,6 @@
 import React from "react";
 
 const About = () => {
-  // const info = [
-  //   { text: "Years experience", count: "04" },
-  //   { text: "Completed Projects", count: "24" },
-  //   { text: "Companies Work", count: "06" },
-  // ];
-
-
   return (
     <section id="about" className="py-10 text-white">
       <div className="mt-8 text-center">
@@ -31,20 +24,9 @@ const About = () => {
                 and I am always keen to help clients by listening patiently and
                 help find solutions according to their requirements.
               </p>
-              {/* <div className="mt-10 flex items-center gap-7">
-                {info.map((content) => (
-                  <div key={content.text}>
-                    <h3 className="text-2xl font-semibold text-white md:text-4xl">
-                      {content.count}
-                      <span className="text-cyan-600">+</span>{" "}
-                    </h3>
-                    <span className="text-xs md:text-base">{content.text}</span>
-                  </div>
-                ))}
-              </div> */}
               <br />
               <br />
-              <a href="./src/assets/resume.pdf" download>
+              <a href="./src/assets/Resume.pdf" download>
                 <div className="flex items-start">
                   <div className="m-8 inline-block bg-gradient-to-r from-cyan-200 to-cyan-600 p-1">
                     <div className="parent bg-gray-900 hover:bg-gradient-to-r hover:from-cyan-200 hover:to-cyan-600">
