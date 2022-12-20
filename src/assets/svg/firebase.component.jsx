@@ -9,7 +9,7 @@ const FirebaseIcon = () => {
       strokeLinejoin="round"
       strokeWidth="1"
       className="h-[50px] w-[50px] rounded-lg text-gray-700 group-hover:text-cyan-500"
-      viewBox="0 0 30 30.000001"
+      viewBox="2 1 25 25"
     >
       <defs>
         <clipPath id="id1">

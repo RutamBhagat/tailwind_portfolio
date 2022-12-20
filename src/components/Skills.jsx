@@ -86,7 +86,7 @@ const Skills = () => {
                 {skill.logo ? (
                   <i className={`${skill.logo} group-hover:text-cyan-500`}></i>
                 ) : (
-                  skill.svg
+                  <div className="group-hover:text-cyan-500">{skill.svg}</div>
                 )}
               </div>
               <h1 className="group-hover:text-cyan-500">{skill.name}</h1>
