@@ -26,7 +26,7 @@ const About = () => {
               </p>
               <br />
               <br />
-              <a href="./src/assets/Resume.pdf" download>
+              <a href="https://drive.google.com/file/d/10yse8qLKpLpfduovpjY7I0AZZaiQ40LE/view?usp=sharing" download>
                 <div className="flex items-start">
                   <div className="m-8 inline-block bg-gradient-to-r from-cyan-200 to-cyan-600 p-1">
                     <div className="parent bg-gray-900 hover:bg-gradient-to-r hover:from-cyan-200 hover:to-cyan-600">
