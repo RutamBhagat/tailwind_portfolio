@@ -6,6 +6,29 @@ import drip from "../assets/images/drip.webp";
 const Project = () => {
   const projects = [
     {
+      img: "https://images.unsplash.com/photo-1599458252573-56ae36120de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      name: "Table Spot: Restaurant Reservation",
+      technologies: "Next.js, Prisma, PostgreSQL",
+      description: `Developed a restaurant reservation app using Next.js 13 and PostgreSQL Implemented a user-friendly
+      booking and availability system with JWT authentication and session management Enhanced user experience and navigation with conditional rendering, middleware, and cookies Leveraged Prisma ORM for
+      efficient and reliable data storage and retrieval.`,
+      github_link: "https://github.com/RutamBhagat/table_spot_next_13",
+      live_link: "https://table-spot-next-13.vercel.app/",
+      demo_link: "https://youtu.be/fRzsxyK81Q0",
+    },
+    {
+      img: "https://clickup.com/blog/wp-content/uploads/2020/01/note-taking.png",
+      name: "PostIt: Post App ",
+      technologies: "Next.js, Prisma, PostgreSQL, React Query",
+      description: `Built a full-stack web app with Next.js 13 and React to enable users to share short messages Utilized
+      Prisma and PostgreSQL for data storage and retrieval in the backend Integrated Next Auth for user
+      creation and authentication with a secure login system Deployed the frontend and backend on pages/api
+      directory and psql database respectively.`,
+      github_link: "https://github.com/RutamBhagat/next_js_fullstack_app",
+      live_link: "https://next-js-fullstack-app.vercel.app",
+      demo_link: "https://youtu.be/E5MBR8MA6MQ",
+    },
+    {
       img: drip,
       name: "DripShop: Clothing Shop App",
       technologies: "React, Redux, React Router, Context API, Firebase, Stripe",
@@ -54,29 +77,6 @@ const Project = () => {
       github_link: "https://github.com/RutamBhagat/SmartBrain_V-2",
       live_link: "https://rutambhagatgithubiosmartbrain.netlify.app/",
       demo_link: "https://youtu.be/7Y_uCxnZuOg",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1599458252573-56ae36120de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      name: "Table Spot: Restaurant Reservation",
-      technologies: "Next.js, Prisma, PostgreSQL",
-      description: `Developed a restaurant reservation app using Next.js 13 and PostgreSQL Implemented a user-friendly
-      booking and availability system with JWT authentication and session management Enhanced user experience and navigation with conditional rendering, middleware, and cookies Leveraged Prisma ORM for
-      efficient and reliable data storage and retrieval.`,
-      github_link: "https://github.com/RutamBhagat/table_spot_next_13",
-      live_link: "https://table-spot-next-13.vercel.app/",
-      demo_link: "https://youtu.be/fRzsxyK81Q0",
-    },
-    {
-      img: "https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/c2/05/91/c205914f-fd90-0837-d269-ef833a2cbc32/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/1200x600wa.png",
-      name: "PostIt: Post App ",
-      technologies: "Next.js, Prisma, PostgreSQL, React Query",
-      description: `Built a full-stack web app with Next.js 13 and React to enable users to share short messages Utilized
-      Prisma and PostgreSQL for data storage and retrieval in the backend Integrated Next Auth for user
-      creation and authentication with a secure login system Deployed the frontend and backend on pages/api
-      directory and psql database respectively.`,
-      github_link: "https://github.com/RutamBhagat/next_js_fullstack_app",
-      live_link: "https://next-js-fullstack-app.vercel.app",
-      demo_link: "https://youtu.be/E5MBR8MA6MQ",
     },
   ];
   return (
