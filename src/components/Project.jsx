@@ -56,7 +56,7 @@ const Project = () => {
       demo_link: "https://youtu.be/7Y_uCxnZuOg",
     },
     {
-      img: "https://image.winudf.com/v2/image/Y29tLm13bS5teXJlc2Ffc2NyZWVuXzFfMTUyMTU1NzM0M18wMjE/screen-1.jpg?fakeurl=1&type=.jpg",
+      img: "https://images.unsplash.com/photo-1599458252573-56ae36120de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHRhYmxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
       name: "Table Spot: Restaurant Reservation",
       technologies: "Next.js, Prisma, PostgreSQL",
       description: `Developed a restaurant reservation app using Next.js 13 and PostgreSQL Implemented a user-friendly
