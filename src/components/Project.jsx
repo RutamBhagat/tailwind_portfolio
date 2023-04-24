@@ -17,18 +17,6 @@ const Project = () => {
       demo_link: "https://youtu.be/fRzsxyK81Q0",
     },
     {
-      img: "https://clickup.com/blog/wp-content/uploads/2020/01/note-taking.png",
-      name: "PostIt: Post App ",
-      technologies: "Next.js, Prisma, PostgreSQL, React Query",
-      description: `Built a full-stack web app with Next.js 13 and React to enable users to share short messages Utilized
-      Prisma and PostgreSQL for data storage and retrieval in the backend Integrated Next Auth for user
-      creation and authentication with a secure login system Deployed the frontend and backend on pages/api
-      directory and psql database respectively.`,
-      github_link: "https://github.com/RutamBhagat/next_js_fullstack_app",
-      live_link: "https://next-js-fullstack-app.vercel.app",
-      demo_link: "https://youtu.be/E5MBR8MA6MQ",
-    },
-    {
       img: drip,
       name: "DripShop: Clothing Shop App",
       technologies: "React, Redux, React Router, Context API, Firebase, Stripe",
@@ -59,6 +47,18 @@ const Project = () => {
       github_link: "https://github.com/RutamBhagat/pizza_UI_react",
       live_link: "https://rutambhagatgithubiopizzauireact.netlify.app/",
       demo_link: "https://youtu.be/jr-RZTDfxHs",
+    },
+    {
+      img: "https://clickup.com/blog/wp-content/uploads/2020/01/note-taking.png",
+      name: "PostIt: Post App ",
+      technologies: "Next.js, Prisma, PostgreSQL, React Query",
+      description: `Built a full-stack web app with Next.js 13 and React to enable users to share short messages Utilized
+      Prisma and PostgreSQL for data storage and retrieval in the backend Integrated Next Auth for user
+      creation and authentication with a secure login system Deployed the frontend and backend on pages/api
+      directory and psql database respectively.`,
+      github_link: "https://github.com/RutamBhagat/next_js_fullstack_app",
+      live_link: "https://next-js-fullstack-app.vercel.app",
+      demo_link: "https://youtu.be/E5MBR8MA6MQ",
     },
     {
       img: smartbrain,
